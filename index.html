@@ -1,0 +1,209 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kenya Bloomberg | Kenya News, Business, Markets & Sports</title>
+    <meta name="description" content="Kenya Bloomberg delivers fast, trusted Kenyan news, business insight, market analysis, and sports coverage with a modern responsive design.">
+    <meta name="theme-color" content="#1c5cc7">
+    <meta property="og:title" content="Kenya Bloomberg | Kenya News, Business, Markets & Sports">
+    <meta property="og:description" content="Fast, trusted Kenyan news, market intelligence, and sports coverage with a premium editorial design.">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="images/hero.svg">
+    <meta property="og:url" content="https://victoryeswa.github.io/blog-website/">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Kenya Bloomberg | Kenya News, Business, Markets & Sports">
+    <meta name="twitter:description" content="Fast, trusted Kenyan news, market intelligence, and sports coverage with a premium editorial design.">
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+</head>
+<body>
+    <header class="site-header">
+        <div class="topbar" aria-label="Breaking news ticker">
+            Breaking: Kenya shifts to value addition in mining push · Gachagua court U-turn · Sawe breaks two-hour marathon barrier
+        </div>
+        <div class="header-inner">
+            <div class="brand">
+                <p class="eyebrow">Kenya Bloomberg</p>
+                <h1>Kenya’s leading source for news, markets, and insight</h1>
+            </div>
+            <button class="nav-toggle" aria-expanded="false" aria-controls="primary-nav">Menu</button>
+            <nav>
+                <ul id="primary-nav" class="primary-nav">
+                    <li><a href="#top-stories">Top Stories</a></li>
+                    <li><a href="#latest-news">Latest</a></li>
+                    <li><a href="#business">Business</a></li>
+                    <li><a href="#sports">Sports</a></li>
+                    <li><a href="#opinion">Opinion</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section class="hero" id="top-stories">
+            <div>
+                <span class="section-label">Featured</span>
+                <h2>Supreme Court Interviews Put Kenya's Judicial Future in Focus</h2>
+                <p>As the Judicial Service Commission interviews top candidates, the country watches for signs of judicial independence and legal stability.</p>
+                <div class="hero-actions">
+                    <a class="button" href="#latest-news">Explore Coverage</a>
+                    <a class="button button-secondary" href="#business">Market Pulse</a>
+                </div>
+            </div>
+        </section>
+        <section class="featured-grid">
+            <article class="feature-card">
+                <img src="images/politics.svg" alt="Politics feature image">
+                <div class="feature-body">
+                    <span class="card-label">Politics</span>
+                    <h3>Zoning Headache for Broad-Based Government, United Opposition</h3>
+                    <p>Political leaders seek an inclusive coalition formula while balancing regional power ahead of 2027.</p>
+                    <a href="#latest-news">Read Story</a>
+                </div>
+            </article>
+            <article class="feature-card">
+                <img src="images/business.svg" alt="Business feature image">
+                <div class="feature-body">
+                    <span class="card-label">Business</span>
+                    <h3>Farmers’ Boon as 2026 Avocado Exports Seen Rising</h3>
+                    <p>Export demand is driving growth, but producers still face water and transport challenges.</p>
+                    <a href="#latest-news">Read Story</a>
+                </div>
+            </article>
+            <article class="feature-card">
+                <img src="images/sports.svg" alt="Sports feature image">
+                <div class="feature-body">
+                    <span class="card-label">Sports</span>
+                    <h3>Sawe Makes History With Sub-2 Hour Marathon</h3>
+                    <p>Kenya's athletics dominance continues with a record-breaking London Marathon performance.</p>
+                    <a href="#latest-news">Read Story</a>
+                </div>
+            </article>
+        </section>
+        <div class="content">
+            <section class="news-panel" id="latest-news">
+                <div class="panel-header">
+                    <div>
+                        <h2>Latest News</h2>
+                        <p>Real-time coverage of politics, markets, sports and community stories from Kenya.</p>
+                    </div>
+                    <div class="search-group">
+                        <label for="search-input">Search stories</label>
+                        <input id="search-input" type="search" placeholder="Search Kenya news..." aria-label="Search stories">
+                    </div>
+                </div>
+                <div class="filter-list" id="category-filters" aria-label="Category filters"></div>
+                <div id="posts-list" class="posts-list"></div>
+            </section>
+            <aside class="trending" id="trending" aria-label="Trending topics">
+                <h3>Trending Topics</h3>
+                <ul>
+                    <li>Rigathi Gachagua's U-turn in Court</li>
+                    <li>IFAB red card ruling</li>
+                    <li>Kenya gambling crisis</li>
+                    <li>Avocado export surge</li>
+                    <li>Ol-Kalou by-election</li>
+                </ul>
+                <div class="popular">
+                    <h4>Popular Picks</h4>
+                    <ul>
+                        <li><a href="#">Kenya shifts to value-add mining strategy</a></li>
+                        <li><a href="#">Drought cuts milk supply to 22-month low</a></li>
+                        <li><a href="#">Banks worry about Anthropic's latest AI model</a></li>
+                    </ul>
+                </div>
+            </aside>
+        </div>
+        <section class="section-block market-block" id="business">
+            <div class="section-intro">
+                <span class="section-label">Market Snapshot</span>
+                <h2>Kenya’s economy: agriculture, fintech and energy are leading the next wave.</h2>
+            </div>
+            <div class="snapshot-grid">
+                <article class="metric-card">
+                    <h3>Avocado Exports</h3>
+                    <p>+18% forecast for 2026</p>
+                </article>
+                <article class="metric-card">
+                    <h3>Dairy Output</h3>
+                    <p>22-month low amid drought</p>
+                </article>
+                <article class="metric-card">
+                    <h3>Mobile Payments</h3>
+                    <p>67% of urban transactions</p>
+                </article>
+                <article class="metric-card">
+                    <h3>Energy Investment</h3>
+                    <p>Sh5.5bn clean cooking fund</p>
+                </article>
+            </div>
+        </section>
+        <section class="section-block sports-block" id="sports">
+            <div class="section-intro">
+                <span class="section-label">Sports Brief</span>
+                <h2>From marathon glory to football drama, Kenya stays in the world spotlight.</h2>
+            </div>
+            <div class="sports-cards">
+                <article class="sports-card">
+                    <h3>Sawe breaks two-hour marathon barrier</h3>
+                    <p>Kenya reclaims its place at the top of distance running with a historic London finish.</p>
+                </article>
+                <article class="sports-card">
+                    <h3>IFAB red card for verbal clashes</h3>
+                    <p>New discipline rules are reshaping local football culture and coaching behavior.</p>
+                </article>
+            </div>
+        </section>
+        <section class="section-block opinion-block" id="opinion">
+            <div class="section-intro">
+                <span class="section-label">Opinion</span>
+                <h2>Expert commentary on Kenya’s digital economy and regional leadership.</h2>
+            </div>
+            <article class="opinion-card">
+                <h3>Digital payments and energy innovation shape Nairobi’s growth</h3>
+                <p>How mobile money and renewable energy projects are creating a more resilient economy for Kenyan businesses and cities.</p>
+                <a href="#latest-news">Read Opinion</a>
+            </article>
+        </section>
+        <section class="newsletter">
+            <div>
+                <h2>Stay ahead of Kenya’s top stories</h2>
+                <p>Subscribe to our newsletter for daily analysis, business updates, and sports highlights.</p>
+            </div>
+            <form class="newsletter-form" action="#" method="post">
+                <input type="email" placeholder="Enter your email" aria-label="Email address" required>
+                <button type="submit">Subscribe</button>
+            </form>
+        </section>
+    </main>
+    <div class="modal-backdrop" id="article-modal" aria-hidden="true">
+        <div class="modal" role="dialog" aria-modal="true" aria-labelledby="modal-title">
+            <div class="modal-header">
+                <h2 id="modal-title">Article</h2>
+                <button class="close-button" type="button" aria-label="Close article">×</button>
+            </div>
+            <div class="modal-content" id="modal-content"></div>
+        </div>
+    </div>
+    <footer>
+        <div class="footer-links">
+            <div>
+                <h4>Sections</h4>
+                <ul>
+                    <li><a href="#top-stories">Top Stories</a></li>
+                    <li><a href="#latest-news">Latest</a></li>
+                    <li><a href="#business">Business</a></li>
+                    <li><a href="#sports">Sports</a></li>
+                    <li><a href="#opinion">Opinion</a></li>
+                </ul>
+            </div>
+            <div>
+                <h4>About</h4>
+                <p>Kenya Bloomberg is a modern news site built to showcase Kenyan stories, market intelligence, and cultural briefs.</p>
+            </div>
+        </div>
+        <p class="copyright">&copy; 2026 Kenya Bloomberg. Crafted for Kenyan readers.</p>
+    </footer>
+    <script src="js/script.js"></script>
+</body>
+</html>

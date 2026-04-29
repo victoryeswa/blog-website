@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="600" viewBox="0 0 900 600">
+  <rect width="900" height="600" rx="32" fill="#fff7e6"/>
+  <rect x="90" y="120" width="220" height="180" rx="24" fill="#ffd39e"/>
+  <rect x="340" y="120" width="180" height="280" rx="24" fill="#ffb85c"/>
+  <rect x="560" y="200" width="220" height="200" rx="24" fill="#ff8b37"/>
+  <circle cx="160" cy="420" r="44" fill="#1c5cc7"/>
+  <circle cx="260" cy="360" r="28" fill="#ffffff"/>
+  <text x="120" y="520" fill="#ab5600" font-family="Inter, sans-serif" font-size="40">Business</text>
+</svg>
