@@ -1,0 +1,30 @@
+{
+  "name": "blog-website",
+  "version": "1.0.0",
+  "description": "A blog website focused on trending news and updates.",
+  "main": "src/index.html",
+  "scripts": {
+    "start": "live-server src",
+    "build": "node scripts/build.js",
+    "clean": "node scripts/clean.js",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist",
+    "test": "echo 'No tests specified'"
+  },
+  "keywords": [
+    "blog",
+    "news",
+    "updates",
+    "trending"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "marked": "^18.0.2"
+  },
+  "devDependencies": {
+    "gh-pages": "^5.0.0",
+    "live-server": "^1.2.1"
+  }
+}
